@@ -4,6 +4,7 @@ import axios from "axios";
 import { useState } from "react";
 import { Zap } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import toast from "react-hot-toast";
 
 export const SubscriptionButton = ({ isPro = false }: { isPro: boolean }) => {
   const [loading, setLoading] = useState(false);
