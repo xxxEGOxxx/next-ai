@@ -1,6 +1,5 @@
 import Image from "next/image";
 import { Bot } from "lucide-react";
-
 interface EmptyProps {
   label: string;
 }
